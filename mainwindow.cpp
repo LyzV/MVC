@@ -7,6 +7,7 @@ MainWindow::MainWindow(QWidget *parent) :
 {
     ui->setupUi(this);
     ui->listView->setModel(&model);
+    ui->listView->setItemDelegate(&slider_delegate);
 }
 
 MainWindow::~MainWindow()

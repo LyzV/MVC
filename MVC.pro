@@ -27,11 +27,13 @@ CONFIG += c++11
 SOURCES += \
         main.cpp \
         mainwindow.cpp \
-        qmylistmodel.cpp
+        qmylistmodel.cpp \
+        qslideitemdelegate.cpp
 
 HEADERS += \
         mainwindow.h \
-        qmylistmodel.h
+        qmylistmodel.h \
+        qslideitemdelegate.h
 
 FORMS += \
         mainwindow.ui

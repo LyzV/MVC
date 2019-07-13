@@ -3,6 +3,7 @@
 
 #include <QMainWindow>
 #include "qmylistmodel.h"
+#include "qslideitemdelegate.h"
 
 namespace Ui {
 class MainWindow;
@@ -19,6 +20,7 @@ public:
 private:
     Ui::MainWindow *ui;
     QMyListModel model;
+    QSlideItemDelegate slider_delegate;
 };
 
 #endif // MAINWINDOW_H
